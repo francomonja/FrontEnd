@@ -1,0 +1,29 @@
+
+<div class="row gx-0">
+    
+    <div class="col d-flex flex-row justify-content-between align-items-center mx-2 fondo">
+        <h1>Educacion</h1>
+        <button type="button" class="btn btn-success btn-sm" routerLink="/nuevaeducacion" *ngIf="isLogged">Nueva educacion</button>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 fondo">
+        <table class="table">
+            <tbody>
+                <tr *ngFor="let Educacion of educacion">
+                    <td class="nombre"><h2>{{Educacion.nombreEdu}} </h2> 
+                        <p>({{Educacion.fInicio}} hasta {{Educacion.fFinal}})</p>
+                    </td>
+                    <td class="descripcion">{{Educacion.descripcionEdu}}</td>
+                    <td *ngIf="isLogged" class="botones">
+                        <button type="button" class="btn btn-warning mx-2" routerLink="/editareducacion/{{Educacion.id}}">
+                            <i class="bi bi-pencil"></i>
+                        </button>
+                        <button type="button" class="btn btn-danger" (click)="delete(Educacion.id)">
+                            <i class="bi bi-trash3"></i>
+                        </button>
+                    </td>
+                    
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

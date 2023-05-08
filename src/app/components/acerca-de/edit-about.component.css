@@ -1,0 +1,17 @@
+.row{
+    text-align: center;
+    
+    
+}
+
+label{
+color: white;
+text-transform: uppercase;
+}
+
+.titulos, .nombre{
+display: flex;
+justify-content: space-around;
+align-items: center;
+text-align: center;
+}

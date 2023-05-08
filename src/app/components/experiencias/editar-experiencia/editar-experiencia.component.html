@@ -1,0 +1,47 @@
+<section class="vh-100 gradient-custom">
+    <div class="container py-5 h-100" *ngIf="expLaboral">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col">
+                <div class="card bg-dark text-white" style="border-radius: 1rem;">
+                    <div class="card-body p-5 text-center">
+                        <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+                            <div class="col">
+                                <div class="row justify-content-between align-items-start">
+                                    <div class="col-lg-6 col-md-6">
+                                        <div>
+                                            <label for="nombreExp">nombre empresa</label>
+                                            <input type="text" class="form-control" name="nombreExp" id="nombreExp"
+                                                [(ngModel)]="expLaboral.nombreExp" required>
+                                            <br>
+                                            <div class="form-group titulos">
+                                                <label for="fInicio">Fecha de inicio</label>
+                                                <label for="fFinal">Fecha final</label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group años">
+
+                                            <input type="month" class="form-control mx-2" name="fInicio" id="fInicio"
+                                                [(ngModel)]="expLaboral.fInicio" required>
+                                            <input type="month" class="form-control mx-2" name="fFinal" id="fFinal"
+                                                [(ngModel)]="expLaboral.fFinal" required>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 d-flex flex-column">
+
+                                        <label for="descripcionExp">descripcion</label>
+                                        <textarea name="descripcionExp" id="descripcionExp" class="mb-2" rows="5"
+                                            [(ngModel)]="expLaboral.descripcionExp" required></textarea>
+                                        <div class="col-lg-12 col-md-12">
+                                            <button class="btn btn-success mt-4">Actualizar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

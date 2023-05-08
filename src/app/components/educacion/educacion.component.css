@@ -1,0 +1,50 @@
+.row{
+    padding: 20px;
+    /* background-color: #658dc6; */
+    
+}
+p{
+    color: #fafbfd;
+}
+h2, h1{
+    display: inline;
+    text-transform: uppercase;
+    color: #fafbfd;
+}
+/* .fondo{
+    background-color: #2b476d;
+} */
+h1{
+    text-decoration: underline;
+}
+
+.table{
+    table-layout: fixed;
+}
+.descripcion{
+    width: 50%;
+    word-wrap: break-word;
+    text-align: center;
+    
+}
+
+.btn{
+    height: 35px;
+    
+}
+.nombre{
+    width: 40%;
+    word-wrap: break-word;
+    text-align: start;
+}
+.botones{
+    width: 10%;
+    text-align: end;
+}
+tr{
+    align-items: center;
+    vertical-align: middle;
+}
+td{
+    color: #fafbfd;
+}

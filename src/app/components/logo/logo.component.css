@@ -1,0 +1,32 @@
+#logoAP{
+    max-width: 150px;
+}
+img{
+    max-width: 50px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.redes{
+    display: flex;
+    align-items: center;
+}
+#facebook, #instagram, #twitter{
+    margin-right: 5px;
+}
+
+@media (max-width: 575px){
+    .redes{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+    }
+    .btn-primary{
+        margin: 10px;
+    }
+    #facebook, #instagram, #twitter{
+        width: 35px;
+    }
+}

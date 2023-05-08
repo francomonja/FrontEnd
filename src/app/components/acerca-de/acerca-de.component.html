@@ -1,0 +1,22 @@
+
+    <div class="row gx-0" *ngIf="persona">
+        
+        <div class="col-12 col-sm-2 col-md-2 col-lg-2 fondo">
+            <img src={{persona.img}} class="img-fluid" id="fotoPerfil">
+        </div>
+        <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 fondo">
+            <h3 id="nombre">{{persona.nombre}} {{persona.apellido}}</h3>
+            <p>{{persona.nivel}}</p>
+        </div>
+        <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 fondo">
+            <span>
+                <h1>Acerca de mí</h1>
+                <p>{{persona.descripcion}}</p>
+            </span>
+        </div>
+        <div class="d-flex flex-row justify-content-between align-items-center mr-5 fondo">
+            <h1></h1>
+            <button type="button" class="btn btn-warning" routerLink="/editabout/1" *ngIf="isLogged"><i class="bi bi-pencil"></i></button>
+        </div>
+
+    </div>

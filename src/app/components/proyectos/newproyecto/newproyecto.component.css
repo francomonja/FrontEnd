@@ -1,0 +1,13 @@
+.row{
+    text-align: center;
+    
+}
+.form-group{
+display: block;
+
+}
+label{
+color: white;
+text-transform: uppercase;
+}
+

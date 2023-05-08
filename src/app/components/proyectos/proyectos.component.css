@@ -1,0 +1,31 @@
+.row{
+    padding: 20px;
+    background-color: bisque;
+    box-shadow: 4px -4px 5px #999;
+}
+h1{
+    text-decoration: underline;
+}
+h2, h1{
+    display: inline;
+    text-transform: uppercase;
+}
+.nombre{
+    text-align: initial !important;
+}
+.img-proyecto{
+    box-shadow: 10px 10px 30px black;
+    width: 200px;
+    height: 300px;
+    
+}
+.btn{
+    height: 35px;
+}
+.table{
+    text-align: center;
+}
+tr{
+    display: flex;
+    align-items: baseline;
+}

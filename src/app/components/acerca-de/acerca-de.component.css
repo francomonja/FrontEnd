@@ -1,0 +1,29 @@
+.row{
+    padding: 20px;
+    
+    text-align: center;
+    
+}
+
+#nombre{
+    font-weight: bold;
+    margin-top: 20%;
+    
+}
+#fotoPerfil{
+    border-radius: 100px;
+}
+.btn{
+    height: 35px;
+    margin-right: 9px;
+    text-align: end;
+    
+}
+h1{
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #fafbfd;
+}
+h2, h3, p{
+    color: #fafbfd;
+}

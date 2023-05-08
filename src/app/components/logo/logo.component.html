@@ -1,0 +1,19 @@
+
+<div class="row gx-0">
+    <div class="container">
+        <div class="logo">
+            <img src = "../../../assets/APLogo.png" id="logoAP">
+        </div>
+        <div class="redes">
+            <div>
+            <a href="https://www.facebook.com/franco.monja.9/" target="_blank"><img src="../../../assets/facebook.png" id="facebook"></a>
+            <a href="https://www.instagram.com/francomonja/?__coig_restricted=1" target="_blank"><img src="../../../assets/instagram.png" id="instagram"></a>
+            <a href="https://twitter.com/franco_monja" target="_blank"><img src="../../../assets/twitter.png" id="twitter"></a>
+            </div>
+            <div>
+            <button type="button" class="btn btn-primary" (click)="login()" *ngIf="!isLogged">Iniciar Sesión</button>
+            <button type="button" class="btn btn-primary" (click)="onLogOut()" *ngIf="isLogged">Cerrar Sesión</button>
+            </div>
+    </div>
+</div>
+</div>
