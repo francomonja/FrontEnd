@@ -8,7 +8,7 @@ import { Educacion } from '../model/educacion';
 })
 export class SEducacion {
 
-  eduURL = 'http://localhost:8080/educacion/';
+  eduURL = 'https://backendmonja.onrender.com/educacion/';
 
   constructor(private httpClient: HttpClient) {
    }

@@ -8,7 +8,7 @@ import { Experiencia } from '../model/experiencia';
 })
 export class SExperienciaService {
 
-  expURL = 'http://localhost:8080/explaboral/';
+  expURL = 'https://backendmonja.onrender.com/explaboral/';
 
   constructor(private httpClient: HttpClient) {
    }

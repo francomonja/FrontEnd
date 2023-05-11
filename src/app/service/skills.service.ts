@@ -7,7 +7,7 @@ import { Skills } from '../model/skills';
   providedIn: 'root'
 })
 export class SkillsService {
-  URL = 'http://localhost:8080/skill/';
+  URL = 'https://backendmonja.onrender.com/skill/';
   constructor(private httpclient: HttpClient) { }
 
   public lista(): Observable<Skills[]>{
