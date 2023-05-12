@@ -11,7 +11,7 @@ export const environment = {
   messagingSenderId: "688733561088",
   appId: "1:688733561088:web:e24769ffe6f6bc3f15d3e5",
   measurementId: "G-57X536M8CF",
-  locationId: 'southamerica-east1',
+  locationId: 'nam5 (us-central)',
   },
   production: false
 };
