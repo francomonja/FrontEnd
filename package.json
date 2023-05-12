@@ -21,6 +21,7 @@
     "@angular/router": "^14.2.0",
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.3",
+    "firebase": "^9.21.0",
     "fullpage.js": "^4.0.19",
     "jquery": "^3.6.1",
     "ng-circle-progress": "^1.6.0",
