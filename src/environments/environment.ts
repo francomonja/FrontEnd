@@ -6,7 +6,7 @@ export const environment = {
   firebase: {
     projectId: 'portfolio-173b4',
     appId: '1:470397938960:web:7f4a7fcd2b517f8be3c995',
-    storageBucket: 'frontendportfolio-b792d.appspot.com',
+    storageBucket: 'portfolio-173b4.appspot.com',
     locationId: 'southamerica-east1',
     apiKey: 'AIzaSyBcv1XMbdXRoFIRRp8LbnEpuHpLQ-pZhmY',
     authDomain: 'portfolio-173b4.firebaseapp.com',
