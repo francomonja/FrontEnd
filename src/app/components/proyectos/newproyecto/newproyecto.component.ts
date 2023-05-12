@@ -20,12 +20,12 @@ export class NewproyectoComponent implements OnInit {
   }
   onCreate(): void{
     this.imgP = this.imageService.url;
+    console.log(this.imgP);
     const proyecto = new Proyecto(this.nombreP, this.descripcionP, this.imgP);
     this.proyectoService.save(proyecto).subscribe(data => {
       this.router.navigate(['']);
 
     }, err =>{
-      console.log(err)
       alert("fallo la creacion");
     })
   

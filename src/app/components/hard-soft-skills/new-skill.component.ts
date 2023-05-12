@@ -27,7 +27,6 @@ export class NewSkillComponent implements OnInit {
     this.img = this.imageService.url;
     const skill = new Skills(this.nombre, this.porcentaje, this.img);
     this.skillS.save(skill).subscribe(data => {
-      alert("Skill creada correctamente");
       this.router.navigate(['']);
     }, err=>{
       alert("fallo al crear la skill");
