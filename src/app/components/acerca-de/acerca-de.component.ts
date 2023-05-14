@@ -15,7 +15,7 @@ export class AcercaDeComponent implements OnInit {
   isLogged = false;
   ngOnInit(): void {
     this.cargarPersona();
-    console.log("{{persona.img}}");
+    console.log(this.persona.img);
     if(this.tokenService.getToken() && (this.tokenService.getAuthorities().indexOf("ROLE_ADMIN") == 0 || this.tokenService.getAuthorities().indexOf("ROLE_ADMIN") == 1)){
       this.isLogged = true;
     } else{
