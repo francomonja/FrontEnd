@@ -30,7 +30,7 @@ export class EditAboutComponent implements OnInit {
       this.router.navigate(['']);
     }, err =>{
       alert("Error al modificar la persona");
-      
+      console.log(this.persona.img);
     })
   }
   uploadImage($event:any){
