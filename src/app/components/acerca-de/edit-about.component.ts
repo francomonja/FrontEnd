@@ -29,7 +29,6 @@ export class EditAboutComponent implements OnInit {
 
       this.router.navigate(['']);
     }, err =>{
-      console.log(this.persona.img);
       alert("Error al modificar la persona");
       
     })
