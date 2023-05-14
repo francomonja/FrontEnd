@@ -18,20 +18,17 @@ export class EditAboutComponent implements OnInit {
     this.personaService.detail(id).subscribe(data => {
       this.persona = data;
     }, err => {
-            alert("Error al modificar la experiencia");
+            alert("Error al modificar la persona");
       this.router.navigate(['']);
     })
   }
   onUpdate(): void{
     const id = this.activatedRouter.snapshot.params['id'];
     this.persona.img = this.imageService.url;
-    console.log(this.persona.img);
     this.personaService.update(id, this.persona).subscribe(data => {
-      console.log(this.persona.img);
       this.router.navigate(['']);
     }, err =>{
       alert("Error al modificar la persona");
-      console.log(this.persona.img);
     })
   }
   uploadImage($event:any){
