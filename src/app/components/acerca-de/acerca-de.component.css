@@ -23,8 +23,5 @@
 h1{
     text-transform: uppercase;
     text-decoration: underline;
-    color: #fafbfd;
 }
-h2, h3, p{
-    color: #fafbfd;
-}
+

@@ -4,13 +4,10 @@
     box-shadow: 4px -4px 5px #999;
     
 }
-p{
-    color: #fafbfd;
-}
+
 h2, h1{
     display: inline;
     text-transform: uppercase;
-    color: #fafbfd;
 }
 /* .fondo{
     background-color: #2b476d;
